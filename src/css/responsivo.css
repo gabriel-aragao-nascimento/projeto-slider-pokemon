@@ -1,0 +1,43 @@
+
+@media (max-width: 620px) {
+
+    .cabecalho {
+        padding-top: 60px;
+    }
+
+    .pokemon-slider {
+        padding: 30px 20px;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-pokemons {
+        height: 450px;
+    }
+    
+    .card .imagem-pokemon {
+        max-height: 230px;
+    }
+
+    
+    .card .cabecalho-card .nome {
+        max-width: 50%;
+        font-size: 1.5em;
+    }
+    .card .cabecalho-card .vida {
+        max-width: 50%;
+        font-size: 1em;
+    }
+
+    .card .descricao-card .descricao {
+        max-height: 100px;
+    }
+}
